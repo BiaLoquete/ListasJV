@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var lista = [21,3,13,8]
+        var impar = []
+
+        for(var indice = 0; indice < lista.length; indice = indice + 1){
+            var restoPorDois = lista[indice] % 2
+
+            if(restoPorDois > 0) {
+                impar.push(lista[indice])
+            }
+        }
+
+        if(impar.length < lista.length) {
+            document.write("Possui algum número par")
+        } else {
+            document.write("Não possui nenhum número par")
+        }
+
+        console.log(lista)
+        console.log(pares)
+
+    </script>
+    
+</body>
+</html>

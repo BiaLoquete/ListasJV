@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <script>
+    
+        var lista = [1,2,3]
+        var media = 0
+        var soma = 0
+
+        for(var indice = 0; indice < lista.length; indice = indice+1){
+            soma = lista[indice] + soma
+        }
+
+        media = soma / lista.length
+
+
+        console.log(media)
+    </script>
+</body>
+</html>
